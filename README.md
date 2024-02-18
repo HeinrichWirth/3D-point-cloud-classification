@@ -10,7 +10,7 @@ The training dataset had 3 classes: bridge, wire, tree. There were 8 files for t
 1. Python == 3.9
 2. LasPy == 2.5
 3. PyTorch == 2.2
-4. CUDA (если необхоидмо использование GPU)
+4. CUDA ((if GPU usage is required)
 5. Numpy == 1.24
 6. Open3D == 0.18
 7. PyYaml == 6.0
@@ -18,7 +18,7 @@ The training dataset had 3 classes: bridge, wire, tree. There were 8 files for t
 ### Installation
 1. Clone the repository using Git:
 
-```git clone https://github.com/HeinrichWirth/Classification-3D-point-cloud```
+```git clone https://github.com/HeinrichWirth/3D-point-cloud-classification```
 
 2. Install the necessary dependencies:
 
@@ -57,9 +57,9 @@ The training dataset had 3 classes: bridge, wire, tree. There were 8 files for t
 ## Screenshots and Videos
 
 ### Example bridge point cloud
-![images](https://github.com/HeinrichWirth/Classification-3D-point-cloud/blob/main/images/bridge_point.png "Bridge point cloud")
+![images](https://github.com/HeinrichWirth/3D-point-cloud-classification/blob/main/images/bridge_point.png "Bridge point cloud")
 
 ### Transformed point cloud to voxels
-![images](https://github.com/HeinrichWirth/Classification-3D-point-cloud/blob/main/images/bridge_voxel.png "Bridge voxels")
+![images](https://github.com/HeinrichWirth/3D-point-cloud-classification/blob/main/images/bridge_voxel.png "Bridge voxels")
 
 
