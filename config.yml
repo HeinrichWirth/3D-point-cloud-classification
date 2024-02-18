@@ -1,0 +1,21 @@
+save_las_as_voxels:
+  grid_size: 100
+  files_path: path
+  output_path: path
+
+train_model:
+  batch_size: 8
+  TripletMarginLoss_margin: 9.0 
+  TripletMarginLoss_p: 2
+  lr: 0.001
+  num_epochs: 30
+  train_path: path
+  log_path: training_log.txt
+  grid_size: 100
+
+classify:
+  input_file_path: path #train data for reference vector
+  grid_size: 100
+  model_weights_path: file.pth
+  test_las_path: file.las
+
